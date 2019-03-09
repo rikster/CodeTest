@@ -1,0 +1,6 @@
+richard hounslow,waffle iron,80,2
+richard hounslow,blnder,200,1
+richard hounslow,knife,10,4
+Nikita Smith,waffle iron,80,1
+Nikita Smith,knife,10,2
+Nikita Smith,knife,20,3
