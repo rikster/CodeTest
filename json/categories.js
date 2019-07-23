@@ -2,8 +2,9 @@
 const data = require("./categoriesJson");
 
 const superCategories = data.filter(
-  category => category.content.component === "super_category"
-    &  category.name !== "Shopping"
+  category =>
+    (category.content.component === "super_category") &
+    (category.name !== "Shopping")
 );
 
 const categories = data.filter(
@@ -11,5 +12,6 @@ const categories = data.filter(
 );
 
 const allCategories = superCategories.concat(categories);
+
 console.log(allCategories);
-console.log(allCategories.length)
+console.log(allCategories.length);
