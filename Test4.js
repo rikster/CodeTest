@@ -12,7 +12,7 @@ var obj = {
     }
 };
 
- console.log(obj.prop.getFullname());
+console.log(obj.prop.getFullname());
 var test = obj.prop.getFullname;
 console.log(test);
 
