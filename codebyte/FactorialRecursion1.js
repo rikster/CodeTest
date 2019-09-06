@@ -15,4 +15,4 @@ function FirstFactorial(num) {
   return factorial(num);
 }
 
-FirstFactorial(4);
+console.log(FirstFactorial(4));
